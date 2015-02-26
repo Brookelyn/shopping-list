@@ -1,0 +1,139 @@
+/* GLOBAL */
+
+body {
+	background-image: url('../img/veggies.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+#content {
+	margin: 0 auto;
+	width: 46.875em;
+}
+
+.content-container {
+	width: 100%;
+	height: 32em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
+	margin-top: 4em;
+}
+
+
+
+
+/* HEADER */
+
+header {
+	height: 8em;
+	width: 100%;
+	background-color: #FFF;
+}
+
+.header h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 2.5em;
+	text-align: center;
+	color: #000;
+	line-height: 3em;
+	width: 90%;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+
+}
+
+.header h1 > span {
+	text-transform: uppercase;
+}
+
+
+
+/* LIST */
+
+.main {
+	background-color: #FFF;
+	width: 100%;
+	height: 24em;
+}
+
+.list {
+	padding: 5%;
+}
+
+.add-item, .grocery-list {
+	float: left;
+	width: 47.5%;
+	height: 100%;
+}
+
+
+
+
+/* ADD ITEM */
+
+.add-item {
+	margin-right: 1%;
+}
+
+.add-item h2 {
+	font-family: 'Rock Salt', cursive;
+	size: 1em;
+	margin-top: -5%;
+	margin-bottom: -1%;
+}
+
+.add-item input {
+	border-radius: 15px;
+	font-size: 1em;
+	width: 90%;
+	text-align: center;
+}
+
+
+
+
+/* GROCERY LIST */
+
+.grocery-list > p {
+	border-bottom: 1px solid #A4A492;
+	padding-bottom: 0.25em;
+}
+
+.grocery-list > p.added {
+	font-weight: bold;
+	color: 	#00A300;
+}
+
+.bought {
+	float: left;
+	margin-right: 1em;
+	background-image: url('../img/tick-tiny.png');
+	background-repeat: no-repeat;
+	position: relative;
+	top: -2px;
+	height: 16px;
+	width: 16px;
+}
+
+.delete {
+	float: right;
+	margin-left: 1em;
+	background-image: url('../img/cross-tiny.png');
+	background-repeat: no-repeat;
+	position: relative;
+	top: -2px;
+	height: 16px;
+	width: 16px;
+}
+
+/* 775 */
+
+
+
