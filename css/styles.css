@@ -126,6 +126,7 @@ header {
 	top: -2px;
 	height: 16px;
 	width: 16px;
+	cursor: pointer;
 }
 
 .delete {
@@ -137,4 +138,6 @@ header {
 	top: -2px;
 	height: 16px;
 	width: 16px;
+	cursor: pointer;
+
 }
